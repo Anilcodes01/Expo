@@ -14,6 +14,11 @@ const App = () => {
             <Text style={styles.buttonText}>Explore</Text>
           </Pressable>
         </Link>
+        <Link href="/books" asChild>
+          <Pressable style={styles.button}>
+            <Text style={styles.buttonText}>Books</Text>
+          </Pressable>
+        </Link>
       </ImageBackground>
     </View>
   )

@@ -36,6 +36,7 @@ export default function RootLayout() {
       <Stack screenOptions={{headerStyle: {backgroundColor: theme.headerBackground}, headerTintColor: '#4A3F35', headerShadowVisible: false}}>
          <Stack.Screen name="index" options={{ title: "Home" }} />
       <Stack.Screen name="explore" options={{ title: "Explore" }} />
+      <Stack.Screen name="books" options={{ title: "Books" }} />
         <Stack.Screen name="+not-found" />
       </Stack>
       
